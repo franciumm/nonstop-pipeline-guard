@@ -1,5 +1,5 @@
-import { Zap } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import zapIcon from "@/assets/zap-icon.png";
 
 const HeroSection = () => {
   const scrollTo = (id: string) => {
@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col justify-center items-start pt-24 pb-40 px-6 md:px-16 lg:px-24"
+      className="relative min-h-screen flex flex-col justify-center items-center pt-24 pb-40 px-6 md:px-16 lg:px-24"
       style={{
         backgroundImage: `url(${heroBg})`,
         backgroundSize: "cover",
@@ -19,37 +19,57 @@ const HeroSection = () => {
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/60" />
 
-      <div className="relative z-10 max-w-4xl">
+      <div className="relative z-10 w-full flex flex-col items-center text-center" style={{ maxWidth: "calc(77vw)" }}>
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 bg-stone-300/20 backdrop-blur-sm text-stone-200 text-base md:text-xl font-medium rounded-2xl px-4 py-2 mb-8">
-          <Zap size={18} className="text-amber-400 fill-amber-400" />
+        <div className="inline-flex items-center gap-2 backdrop-blur-sm text-white text-base md:text-xl font-medium rounded-2xl px-4 py-2 mb-8" style={{ background: "rgba(255,255,255,0.15)" }}>
+          <img src={zapIcon} alt="zap" className="w-5 h-5 object-contain" />
           UAE agencies lose leads at 2 AM. We fix that.
         </div>
 
         {/* Headline */}
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 w-full" style={{ width: "calc(77vw / 0.9)" }}>
           <span className="text-white">Your Competitors Never Sleep.</span>
           <br />
           <span className="text-amber-500">Neither Should Your Pipeline.</span>
         </h1>
 
         {/* Subheadline */}
-        <p className="text-stone-300 text-base md:text-xl font-medium max-w-2xl mb-10 leading-relaxed">
+        <p className="text-stone-300 text-base md:text-xl font-medium mb-10 leading-relaxed">
           24/7 AI agents that scrape every new listing, qualify every lead, and respond in seconds.
           Zero lead leakage. Higher commissions.
         </p>
 
         {/* CTAs */}
-        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+        <div
+          className="flex flex-col sm:flex-row items-center w-full"
+          style={{
+            gap: "calc(100vw / 45)",
+            paddingLeft: "calc(97vw / 360)",
+            paddingRight: "calc(97vw / 360)",
+            justifyContent: "center",
+          }}
+        >
           <button
             onClick={() => scrollTo("contact")}
-            className="btn-primary text-base md:text-lg px-8 py-4 w-full sm:w-auto text-center"
+            className="text-base md:text-lg font-bold rounded-2xl transition-all duration-200 cursor-pointer text-center"
+          style={{
+              width: "calc(79 / 360 * 100vw)",
+              minWidth: "160px",
+              padding: "1rem 0",
+              backgroundColor: "#F59E0B",
+              color: "#ffffff",
+            }}
           >
             Claim Setup Discount
           </button>
           <button
             onClick={() => scrollTo("demo")}
-            className="btn-outline text-base md:text-lg px-8 py-4 w-full sm:w-auto text-center"
+            className="btn-outline text-base md:text-lg text-center"
+            style={{
+              width: "calc(79 / 360 * 100vw)",
+              minWidth: "160px",
+              padding: "1rem 0",
+            }}
           >
             Experience AI Live
           </button>
@@ -76,3 +96,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+

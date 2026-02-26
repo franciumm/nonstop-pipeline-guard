@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-neutral-900 rounded-b-2xl px-6 md:px-12 py-4 flex items-center justify-between">
       <button onClick={() => scrollTo("hero")} className="flex items-center gap-2">
-        <img src={logoImg} alt="Advancify" className="h-8 object-contain" />
+        <img src={logoImg} alt="Advancify" className="h-10 object-contain" />
       </button>
 
       {/* Desktop links */}

@@ -19,7 +19,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="section-light rounded-tl-2xl rounded-tr-2xl -mt-4 relative z-10 px-6 md:px-16 lg:px-24 py-20">
+    <section id="contact" className="section-light rounded-tl-2xl rounded-tr-2xl relative z-10 px-6 md:px-16 lg:px-24 py-24">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left copy */}
         <div>

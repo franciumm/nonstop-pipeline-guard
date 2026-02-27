@@ -54,7 +54,7 @@ const PricingSection = () => {
   };
 
   return (
-    <section id="pricing" className="section-dark px-6 md:px-16 lg:px-24 py-20">
+    <section id="pricing" className="section-dark px-6 md:px-16 lg:px-24 py-24">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14">
           <p className="label-amber mb-3">Investment</p>

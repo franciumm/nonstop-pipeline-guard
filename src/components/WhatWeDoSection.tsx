@@ -32,32 +32,32 @@ const features = [
 
 const WhatWeDoSection = () => {
   return (
-    <section id="what-we-do" className="section-light rounded-tl-2xl rounded-tr-2xl -mt-4 relative z-10 px-6 md:px-16 lg:px-24 py-20">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12">
-          <p className="label-amber mb-3">What We Do</p>
-          <h2 className="text-3xl md:text-4xl font-semibold text-neutral-900 mb-4">
+    <section id="what-we-do" className="bg-neutral-100 rounded-tl-2xl rounded-tr-2xl relative z-10 px-[104px] py-24 mt-0">
+      <div className="max-w-[1232px] mx-auto">
+        <div className="text-center mb-16 w-[813px] mx-auto">
+          <p className="text-amber-500 text-xl font-medium font-inter mb-3">WHAT WE DO</p>
+          <h2 className="text-4xl font-semibold text-neutral-900 mb-6 font-inter">
             Every tool your agency needs to dominate
           </h2>
-          <p className="text-zinc-500 text-lg max-w-xl mx-auto">
+          <p className="text-zinc-500 text-lg font-normal font-inter">
             Stop doing manual work. Let AI handle scraping, qualification, and follow-up while you close deals.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-[1232px]">
           {features.map(({ icon: Icon, title, bullets }) => (
-            <div key={title} className="card-dark text-white">
-              <div className="flex items-center gap-3 mb-5">
-                <div className="bg-amber-500 rounded-xl p-2.5">
-                  <Icon size={22} className="text-neutral-900" />
+            <div key={title} className="bg-neutral-900 text-white rounded-[14px] p-6 w-[400px] h-[416px] flex flex-col">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="bg-amber-500 rounded-[14px] p-2.5 flex-shrink-0">
+                  <Icon size={24} className="text-white" />
                 </div>
-                <h3 className="text-xl font-bold">{title}</h3>
+                <h3 className="text-2xl font-semibold font-inter">{title}</h3>
               </div>
-              <ul className="space-y-3">
+              <ul className="flex flex-col gap-8 flex-1">
                 {bullets.map((b) => (
-                  <li key={b} className="flex items-start gap-2 text-stone-300 text-sm leading-relaxed">
-                    <span className="text-amber-500 mt-0.5">•</span>
-                    {b}
+                  <li key={b} className="flex items-start gap-3 text-neutral-100 text-base font-normal font-inter leading-relaxed">
+                    <span className="text-amber-500 flex-shrink-0 mt-0.5">•</span>
+                    <span>{b}</span>
                   </li>
                 ))}
               </ul>

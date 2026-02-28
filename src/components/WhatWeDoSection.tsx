@@ -32,10 +32,10 @@ const features = [
 
 const WhatWeDoSection = () => {
   return (
-    <section id="what-we-do" className="bg-neutral-100 rounded-tl-2xl rounded-tr-2xl relative z-10 px-[104px] py-24 mt-0">
+    <section id="what-we-do" className="bg-neutral-100 rounded-tl-2xl rounded-tr-2xl relative z-10 px-5 md:px-[104px] py-16 md:py-24 mt-0">
       <div className="max-w-[1232px] mx-auto">
-        <div className="text-center mb-16 w-[813px] mx-auto">
-          <p className="text-amber-500 text-xl font-medium font-inter mb-3">WHAT WE DO</p>
+        <div className="text-center mb-16 w-full max-w-[813px] mx-auto">
+          <p className="label-amber font-inter mb-3">WHAT WE DO</p>
           <h2 className="text-4xl font-semibold text-neutral-900 mb-6 font-inter">
             Every tool your agency needs to dominate
           </h2>
@@ -44,9 +44,9 @@ const WhatWeDoSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-[1232px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-[1232px]">
           {features.map(({ icon: Icon, title, bullets }) => (
-            <div key={title} className="bg-neutral-900 text-white rounded-[14px] p-6 w-[400px] h-[416px] flex flex-col">
+            <div key={title} className="bg-neutral-900 text-white rounded-[14px] p-6 w-full max-w-[400px] mx-auto h-auto min-h-[416px] flex flex-col border border-transparent hover:border-amber-500/30 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(245,158,11,0.1)] transition-all duration-300 cursor-default">
               <div className="flex items-center gap-3 mb-6">
                 <div className="bg-amber-500 rounded-[14px] p-2.5 flex-shrink-0">
                   <Icon size={24} className="text-white" />

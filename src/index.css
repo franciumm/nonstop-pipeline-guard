@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Epilogue:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Epilogue:wght@400;500;600&display=swap');
 
 @layer base {
   :root {
@@ -35,6 +35,21 @@
     --ring: 38 92% 50%;
 
     --radius: 1rem;
+    --radius-medium: .3125rem;
+
+    /* Figma Ramps and Tokens */
+    --ramp-blue-500: #3B82F6;
+    --color-bg-brand: #3B82F6;
+
+    /* Spacers */
+    --spacer-1: .25rem;
+    --spacer-2: .5rem;
+    --spacer-3: 1rem;
+    --spacer-4: 1.5rem;
+    --spacer-5: 2rem;
+    --spacer-6: 3rem;
+
+    --font-weight-strong: 550;
 
     /* Brand tokens */
     --brand-amber: 38 92% 50%;
@@ -75,15 +90,15 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-amber-500 text-neutral-900 font-bold px-6 py-3 rounded-2xl hover:bg-amber-400 transition-all duration-200 cursor-pointer;
+    @apply bg-amber-500 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-200 cursor-pointer;
   }
 
   .btn-outline {
-    @apply border border-amber-500 text-white font-bold px-6 py-3 rounded-2xl hover:bg-amber-500 hover:text-neutral-900 transition-all duration-200 cursor-pointer;
+    @apply border border-amber-500 text-white font-semibold px-6 py-3 rounded-2xl transition-all duration-200 cursor-pointer;
   }
 
   .btn-outline-white {
-    @apply border border-white text-white font-bold px-6 py-3 rounded-2xl hover:bg-white hover:text-neutral-900 transition-all duration-200 cursor-pointer;
+    @apply border border-white text-white font-semibold px-6 py-3 rounded-2xl transition-all duration-200 cursor-pointer;
   }
 
   .section-dark {
@@ -99,7 +114,7 @@
   }
 
   .label-amber {
-    @apply text-amber-500 font-semibold tracking-widest text-sm uppercase;
+    @apply text-amber-500 font-semibold tracking-widest text-[20px] uppercase;
   }
 }
 
@@ -109,18 +124,51 @@
   }
 
   @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(16px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   @keyframes scaleUp {
-    from { opacity: 0; transform: scale(0.5); }
-    to { opacity: 1; transform: scale(1); }
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
 
   @keyframes fadeInText {
-    from { opacity: 0; transform: translateX(-10px); }
-    to { opacity: 1; transform: translateX(0); }
+    from {
+      opacity: 0;
+      transform: translateX(-10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes pulse-custom {
+
+    0%,
+    100% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.5;
+    }
   }
 
   .animate-scale-up {
@@ -131,4 +179,9 @@
     animation: fadeInText 0.4s ease-out 0.4s forwards;
     opacity: 0;
   }
+
+  .animate-pulse-custom {
+    animation: pulse-custom 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
 }

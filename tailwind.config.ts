@@ -13,8 +13,20 @@ export default {
       },
     },
     extend: {
+      spacing: {
+        "spacer-1": "var(--spacer-1)",
+        "spacer-2": "var(--spacer-2)",
+        "spacer-3": "var(--spacer-3)",
+        "spacer-4": "var(--spacer-4)",
+        "spacer-5": "var(--spacer-5)",
+        "spacer-6": "var(--spacer-6)",
+      },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        epilogue: ["Epilogue", "sans-serif"],
+      },
+      fontWeight: {
+        strong: "550", // Custom fontWeight from Figma
       },
       colors: {
         border: "hsl(var(--border))",
@@ -60,28 +72,30 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Figma Ramps and Semantic Tokens
+        brand: {
+          blue: {
+            500: "var(--ramp-blue-500)",
+          },
+          bg: {
+            DEFAULT: "var(--color-bg-brand)",
+          },
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        medium: "var(--radius-medium)",
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
@@ -92,3 +106,4 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+

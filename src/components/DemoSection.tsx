@@ -19,13 +19,13 @@ const UserIcon = () => (
   </svg>
 );
 
-const suggestions =[
+const suggestions = [
   "What's the ROI on Marina Gate?",
   "Any off-plan options?",
   "Schedule a viewing?",
 ];
 
-const initialMessages =[
+const initialMessages = [
   {
     role: "bot",
     text: "Welcome to Advancify. I can help you find the perfect property in Dubai. What are you looking for today?",
@@ -46,7 +46,7 @@ const DemoSection = () => {
 
   const send = (text: string) => {
     if (!text.trim()) return;
-    setMessages((prev) =>[
+    setMessages((prev) => [
       ...prev,
       { role: "user", text },
       { role: "bot", text: "Great question! Our AI agents are analyzing real-time data from Dubai REST and property portals to give you the best answer. Would you like me to notify your agent with this lead?" },
@@ -55,16 +55,16 @@ const DemoSection = () => {
   };
 
   return (
-    <section id="demo" className="bg-[#F9FAFB] rounded-tl-2xl rounded-tr-2xl relative z-10 px-6 md:px-16 lg:px-24 py-24">
+    <section id="demo" className="bg-[#F9FAFB] rounded-t-[18px] relative z-20 px-6 md:px-16 lg:px-24 py-24 -mt-3">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
         {/* Left copy */}
         <div>
-          <p className="text-amber-500 text-sm font-bold mb-5 tracking-widest uppercase">PROOF OF COMPETENCE</p>
+          <p className="label-amber mb-5">PROOF OF COMPETENCE</p>
           <h2 className="text-4xl font-bold text-neutral-900 mb-6 leading-tight">
             Experience 10x faster lead qualification now
           </h2>
           {/* Increased text size to text-xl */}
-          <p className="text-zinc-500 text-xl mb-8 leading-relaxed">
+          <p className="text-zinc-500 mb-8 leading-relaxed">
             This is a live demonstration of how our AI agent handles inbound inquiries. It qualifies leads, provides market data, and routes hot prospects to your team in seconds.
           </p>
           <ul className="space-y-5">
@@ -96,8 +96,8 @@ const DemoSection = () => {
                 <RobotIcon />
               </div>
               <div className="flex flex-col justify-center">
-                <div className="text-white font-semibold text-sm leading-tight">Advancify AI Agent</div>
-                <div className="text-green-400 text-xs font-medium mt-0.5">Online now</div>
+                <div className="text-white text-[18.2px] leading-tight">Advancify AI Agent</div>
+                <div className="text-green-400 text-xs  mt-0.5">Online now</div>
               </div>
             </div>
             {/* Breathing Green Dot */}
@@ -122,11 +122,10 @@ const DemoSection = () => {
                   </div>
                 )}
                 <div
-                  className={`max-w-xs rounded-2xl px-5 py-3.5 text-sm leading-relaxed ${
-                    msg.role === "bot"
-                      ? "bg-[#F7F7F7] text-gray-800 rounded-bl-sm"
-                      : "bg-[#333333] text-white rounded-br-sm"
-                  }`}
+                  className={`max-w-xs rounded-2xl px-5 py-3.5 text-sm leading-relaxed ${msg.role === "bot"
+                    ? "bg-[#F7F7F7] text-gray-800 rounded-bl-sm"
+                    : "bg-[#333333] text-white rounded-br-sm"
+                    }`}
                 >
                   {msg.text}
                 </div>

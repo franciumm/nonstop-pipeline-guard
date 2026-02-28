@@ -1,0 +1,107 @@
+﻿
+       summary               unimported v1.31.0 (node)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+       entry file          : src/main.tsx
+
+       unresolved imports  : 0
+       unused dependencies : 36
+       unimported files    : 48
+
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+     Γöé 36 unused dependencies
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   1 Γöé @hookform/resolvers
+   2 Γöé @radix-ui/react-accordion
+   3 Γöé @radix-ui/react-alert-dialog
+   4 Γöé @radix-ui/react-aspect-ratio
+   5 Γöé @radix-ui/react-avatar
+   6 Γöé @radix-ui/react-checkbox
+   7 Γöé @radix-ui/react-collapsible
+   8 Γöé @radix-ui/react-context-menu
+   9 Γöé @radix-ui/react-dialog
+  10 Γöé @radix-ui/react-dropdown-menu
+  11 Γöé @radix-ui/react-hover-card
+  12 Γöé @radix-ui/react-label
+  13 Γöé @radix-ui/react-menubar
+  14 Γöé @radix-ui/react-navigation-menu
+  15 Γöé @radix-ui/react-popover
+  16 Γöé @radix-ui/react-progress
+  17 Γöé @radix-ui/react-radio-group
+  18 Γöé @radix-ui/react-scroll-area
+  19 Γöé @radix-ui/react-select
+  20 Γöé @radix-ui/react-separator
+  21 Γöé @radix-ui/react-slider
+  22 Γöé @radix-ui/react-slot
+  23 Γöé @radix-ui/react-switch
+  24 Γöé @radix-ui/react-tabs
+  25 Γöé @radix-ui/react-toggle
+  26 Γöé @radix-ui/react-toggle-group
+  27 Γöé cmdk
+  28 Γöé embla-carousel-react
+  29 Γöé framer-motion
+  30 Γöé input-otp
+  31 Γöé react-day-picker
+  32 Γöé react-resizable-panels
+  33 Γöé recharts
+  34 Γöé tailwindcss-animate
+  35 Γöé vaul
+  36 Γöé zod
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓö┤ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓö¼ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+     Γöé 48 unimported files
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓö╝ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   1 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\NavLink.tsx
+   2 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\accordion.tsx
+   3 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\alert-dialog.tsx
+   4 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\alert.tsx
+   5 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\aspect-ratio.tsx
+   6 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\avatar.tsx
+   7 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\badge.tsx
+   8 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\breadcrumb.tsx
+   9 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\button.tsx
+  10 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\calendar.tsx
+  11 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\card.tsx
+  12 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\carousel.tsx
+  13 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\chart.tsx
+  14 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\checkbox.tsx
+  15 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\collapsible.tsx
+  16 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\command.tsx
+  17 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\context-menu.tsx
+  18 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\dialog.tsx
+  19 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\drawer.tsx
+  20 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\dropdown-menu.tsx
+  21 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\form.tsx
+  22 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\hover-card.tsx
+  23 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\input-otp.tsx
+  24 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\input.tsx
+  25 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\label.tsx
+  26 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\menubar.tsx
+  27 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\navigation-menu.tsx
+  28 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\pagination.tsx
+  29 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\popover.tsx
+  30 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\progress.tsx
+  31 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\radio-group.tsx
+  32 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\resizable.tsx
+  33 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\scroll-area.tsx
+  34 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\select.tsx
+  35 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\separator.tsx
+  36 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\sheet.tsx
+  37 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\sidebar.tsx
+  38 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\skeleton.tsx
+  39 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\slider.tsx
+  40 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\switch.tsx
+  41 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\table.tsx
+  42 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\tabs.tsx
+  43 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\textarea.tsx
+  44 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\toggle-group.tsx
+  45 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\toggle.tsx
+  46 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\components\ui\use-toast.ts
+  47 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\hooks\use-mobile.tsx
+  48 Γöé C:\Users\youse\Desktop\Advancify landing page\nonstop-pipeline-guard\src\test\setup.ts
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓö┤ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+
+
+       Inspect the results and run npx unimported -u to update ignore lists

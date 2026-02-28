@@ -38,6 +38,7 @@ const Navbar = () => {
       <button
         className="md:hidden text-amber-500"
         onClick={() => setMobileOpen(!mobileOpen)}
+        aria-label={mobileOpen ? "Close menu" : "Open menu"}
       >
         {mobileOpen ? <X size={32} /> : <Menu size={32} />}
       </button>

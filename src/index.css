@@ -114,7 +114,7 @@
   }
 
   .label-amber {
-    @apply text-amber-500 font-semibold tracking-widest text-[20px] uppercase;
+    @apply text-[#B8860B] font-semibold tracking-widest text-[20px] uppercase;
   }
 }
 

@@ -51,7 +51,7 @@ const ContactSection = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         {/* Left copy */}
         <div className="font-['Inter']">
-          <p className="text-[#F0A500] text-[22px] font-medium leading-none uppercase mb-[24px]">
+          <p className="text-[#B8860B] text-[22px] font-medium leading-none uppercase mb-[24px]">
             GET STARTED!
           </p>
 
@@ -59,7 +59,7 @@ const ContactSection = () => {
             Become the envy of your competitors
           </h2>
 
-          <p className="text-[#878787] text-[18px] font-normal leading-snug mb-[35px]">
+          <p className="text-[#5F5F5F] text-[18px] font-normal leading-snug mb-[35px]">
             Book a free strategy session. We will show you exactly how many leads your agency is leaving on the table and how our AI agents can capture every single one.
           </p>
 

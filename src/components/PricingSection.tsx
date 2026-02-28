@@ -89,7 +89,7 @@ const PricingSection = () => {
                 <div className="flex items-baseline gap-1.5 mb-1 justify-center">
                   <span className="text-white text-[46.2px] font-medium tracking-tight">{plan.price}</span>
                   <span className="text-white text-[23.1px] font-medium">AED</span>
-                  <span className="text-zinc-500 text-[17.85px] font-medium">/month</span>
+                  <span className="text-zinc-400 text-[17.85px] font-medium">/month</span>
                 </div>
                 {plan.setup && (
                   <p className="text-zinc-400 text-sm">{plan.setup}</p>
@@ -108,7 +108,7 @@ const PricingSection = () => {
                     scrollTo("contact");
                   }}
                   className={`px-[29px] py-3 rounded-[12px] font-medium text-[18px] tracking-wide transition-all duration-200 group ${plan.popular
-                    ? "bg-amber-500 text-white"
+                    ? "bg-amber-500 text-neutral-900"
                     : "border-2 border-amber-500/80 text-amber-500 hover:border-amber-500"
                     }`}
                 >

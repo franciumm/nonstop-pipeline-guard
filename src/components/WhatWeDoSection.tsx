@@ -39,7 +39,7 @@ const WhatWeDoSection = () => {
           <h2 className="text-4xl font-semibold text-neutral-900 mb-6 font-inter">
             Every tool your agency needs to dominate
           </h2>
-          <p className="text-zinc-600 text-lg font-normal font-inter">
+          <p className="text-zinc-500 text-lg font-normal font-inter">
             Stop doing manual work. Let AI handle scraping, qualification, and follow-up while you close deals.
           </p>
         </div>

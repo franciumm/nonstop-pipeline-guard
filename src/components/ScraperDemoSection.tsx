@@ -14,7 +14,7 @@ const ScraperDemoSection = () => {
         />
 
         {/* Play Button - Absolute Center */}
-        <button aria-label="Play demo video" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[101px] h-[101px] bg-[#F0A500] rounded-[10px] flex items-center justify-center cursor-pointer hover:scale-110 transition-transform shadow-xl z-20">
+        <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[101px] h-[101px] bg-[#F0A500] rounded-[10px] flex items-center justify-center cursor-pointer hover:scale-110 transition-transform shadow-xl z-20">
           <svg className="w-[45px] h-[45px] text-white ml-1" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
             <polygon points="6,4 20,12 6,20" />
           </svg>

@@ -51,7 +51,7 @@ const HeroSection = () => {
                 onClick={() => scrollTo("contact")}
                 className="w-full max-w-[384px] mx-auto sm:max-w-none sm:w-auto lg:w-[336.1px] h-[62px] sm:h-14 lg:h-[64.9px] bg-amber-500 rounded-xl lg:rounded-[14.9px] flex items-center justify-center transition-all duration-200 group px-5 cursor-pointer"
               >
-                <span className="text-neutral-900 text-[19px] sm:text-base lg:text-[21.3px] font-semibold font-inter transition-all duration-200 group-hover:font-bold inline-block">Claim My Setup Discount</span>
+                <span className="text-neutral-100 text-[19px] sm:text-base lg:text-[21.3px] font-semibold font-inter transition-all duration-200 group-hover:font-bold inline-block">Claim My Setup Discount</span>
               </button>
               <button
                 onClick={() => scrollTo("demo")}

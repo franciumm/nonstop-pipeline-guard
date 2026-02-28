@@ -64,7 +64,7 @@ const DemoSection = () => {
             Experience 10x faster lead qualification now
           </h2>
           {/* Increased text size to text-xl */}
-          <p className="text-zinc-600 mb-8 leading-relaxed">
+          <p className="text-zinc-500 mb-8 leading-relaxed">
             This is a live demonstration of how our AI agent handles inbound inquiries. It qualifies leads, provides market data, and routes hot prospects to your team in seconds.
           </p>
           <ul className="space-y-5">
